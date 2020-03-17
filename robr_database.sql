@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 16-Mar-2020 às 02:58
+-- Tempo de geração: 17-Mar-2020 às 01:17
 -- Versão do servidor: 10.4.11-MariaDB
--- versão do PHP: 7.4.3
+-- versão do PHP: 7.2.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `robr`
 --
+CREATE DATABASE IF NOT EXISTS `robr` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `robr`;
 
 -- --------------------------------------------------------
 
@@ -31,6 +33,17 @@ SET time_zone = "+00:00";
 CREATE TABLE `ano` (
   `id` int(11) NOT NULL,
   `desc_ano` varchar(5) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `bairro`
+--
+
+CREATE TABLE `bairro` (
+  `id` int(11) NOT NULL,
+  `nome` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -53,6 +66,27 @@ CREATE TABLE `canditado` (
   `id_escolaridade` int(11) NOT NULL,
   `id_situacao` int(11) NOT NULL,
   `id_ano` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `entrevistado`
+--
+
+CREATE TABLE `entrevistado` (
+  `id` int(11) NOT NULL,
+  `nome` varchar(50) NOT NULL,
+  `idade` int(11) NOT NULL,
+  `id_escolaridade` int(11) NOT NULL,
+  `id_bairro` int(11) NOT NULL,
+  `religiao` varchar(30) NOT NULL,
+  `cor` varchar(30) NOT NULL,
+  `renda` int(11) NOT NULL,
+  `id_cand_prefeito` int(11) NOT NULL,
+  `id_cand_vereador` int(11) NOT NULL,
+  `id_partido` int(11) NOT NULL,
+  `data` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -90,7 +124,7 @@ CREATE TABLE `partido` (
 
 CREATE TABLE `perfil_eleitorado` (
   `id` int(11) NOT NULL,
-  `num_zona` int(11) NOT NULL,
+  `id_zona` int(11) NOT NULL,
   `num_secao` int(11) NOT NULL,
   `desc_faixa_etaria` varchar(20) NOT NULL,
   `id_escolaridade` int(11) NOT NULL,
@@ -118,12 +152,24 @@ CREATE TABLE `situacao_tot` (
 
 CREATE TABLE `votacao_zona_secao` (
   `id` int(11) NOT NULL,
-  `num_zona` int(11) NOT NULL,
+  `id_zona` int(11) NOT NULL,
   `num_secao` int(11) NOT NULL,
   `desc_cargo` varchar(50) NOT NULL,
   `num_votavel` int(11) NOT NULL,
   `qtd_votos` int(11) NOT NULL,
   `id_ano` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `zona`
+--
+
+CREATE TABLE `zona` (
+  `id` int(11) NOT NULL,
+  `num_zona` int(11) NOT NULL,
+  `id_bairro` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -137,6 +183,12 @@ ALTER TABLE `ano`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Índices para tabela `bairro`
+--
+ALTER TABLE `bairro`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Índices para tabela `canditado`
 --
 ALTER TABLE `canditado`
@@ -144,6 +196,17 @@ ALTER TABLE `canditado`
   ADD KEY `id_ano` (`id_ano`),
   ADD KEY `id_escolaridade` (`id_escolaridade`),
   ADD KEY `id_situacao` (`id_situacao`),
+  ADD KEY `id_partido` (`id_partido`);
+
+--
+-- Índices para tabela `entrevistado`
+--
+ALTER TABLE `entrevistado`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `id_bairro` (`id_bairro`),
+  ADD KEY `id_cand_prefeito` (`id_cand_prefeito`),
+  ADD KEY `id_cand_vereador` (`id_cand_vereador`),
+  ADD KEY `id_escolaridade` (`id_escolaridade`),
   ADD KEY `id_partido` (`id_partido`);
 
 --
@@ -165,7 +228,8 @@ ALTER TABLE `partido`
 ALTER TABLE `perfil_eleitorado`
   ADD PRIMARY KEY (`id`),
   ADD KEY `id_ano` (`id_ano`),
-  ADD KEY `id_escolaridade` (`id_escolaridade`);
+  ADD KEY `id_escolaridade` (`id_escolaridade`),
+  ADD KEY `id_zona` (`id_zona`);
 
 --
 -- Índices para tabela `situacao_tot`
@@ -178,7 +242,15 @@ ALTER TABLE `situacao_tot`
 --
 ALTER TABLE `votacao_zona_secao`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `id_ano` (`id_ano`);
+  ADD KEY `id_ano` (`id_ano`),
+  ADD KEY `id_zona` (`id_zona`);
+
+--
+-- Índices para tabela `zona`
+--
+ALTER TABLE `zona`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `id_bairro` (`id_bairro`);
 
 --
 -- AUTO_INCREMENT de tabelas despejadas
@@ -191,9 +263,21 @@ ALTER TABLE `ano`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
+-- AUTO_INCREMENT de tabela `bairro`
+--
+ALTER TABLE `bairro`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT de tabela `canditado`
 --
 ALTER TABLE `canditado`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de tabela `entrevistado`
+--
+ALTER TABLE `entrevistado`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
@@ -227,6 +311,12 @@ ALTER TABLE `votacao_zona_secao`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
+-- AUTO_INCREMENT de tabela `zona`
+--
+ALTER TABLE `zona`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
 -- Restrições para despejos de tabelas
 --
 
@@ -238,6 +328,16 @@ ALTER TABLE `canditado`
   ADD CONSTRAINT `canditado_ibfk_2` FOREIGN KEY (`id_escolaridade`) REFERENCES `escolaridade` (`id`),
   ADD CONSTRAINT `canditado_ibfk_3` FOREIGN KEY (`id_situacao`) REFERENCES `situacao_tot` (`id`),
   ADD CONSTRAINT `canditado_ibfk_4` FOREIGN KEY (`id_partido`) REFERENCES `partido` (`id`);
+
+--
+-- Limitadores para a tabela `entrevistado`
+--
+ALTER TABLE `entrevistado`
+  ADD CONSTRAINT `entrevistado_ibfk_1` FOREIGN KEY (`id_bairro`) REFERENCES `bairro` (`id`),
+  ADD CONSTRAINT `entrevistado_ibfk_2` FOREIGN KEY (`id_cand_prefeito`) REFERENCES `canditado` (`id`),
+  ADD CONSTRAINT `entrevistado_ibfk_3` FOREIGN KEY (`id_cand_vereador`) REFERENCES `canditado` (`id`),
+  ADD CONSTRAINT `entrevistado_ibfk_4` FOREIGN KEY (`id_escolaridade`) REFERENCES `escolaridade` (`id`),
+  ADD CONSTRAINT `entrevistado_ibfk_5` FOREIGN KEY (`id_partido`) REFERENCES `partido` (`id`);
 
 --
 -- Limitadores para a tabela `partido`
@@ -257,6 +357,12 @@ ALTER TABLE `perfil_eleitorado`
 --
 ALTER TABLE `votacao_zona_secao`
   ADD CONSTRAINT `votacao_zona_secao_ibfk_1` FOREIGN KEY (`id_ano`) REFERENCES `ano` (`id`);
+
+--
+-- Limitadores para a tabela `zona`
+--
+ALTER TABLE `zona`
+  ADD CONSTRAINT `zona_ibfk_1` FOREIGN KEY (`id_bairro`) REFERENCES `bairro` (`id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
