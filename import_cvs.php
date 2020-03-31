@@ -42,16 +42,16 @@ include 'database.php';
 
     <?php
     setlocale(LC_ALL, 'en_US.utf8');
+	header("Content-type: text/html;charset=utf-8");
     if(isset($_POST['submit']))
     {
         $tmpName = $_FILES['consultCand']['tmp_name'];
 		// Abre o arquivo csv escolhido.
         if (($handle = fopen($tmpName, "r")) !== FALSE) {
            // Função para importar dados do candidato
-		   importCand($handle, 2008, $conn);
+		   importCand($handle, "2008", $conn);
 		}
     }
     ?>
-
     </body>
 </html>

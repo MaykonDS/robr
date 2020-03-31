@@ -49,10 +49,10 @@ CREATE TABLE `bairro` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `canditado`
+-- Estrutura da tabela `candidato`
 --
 
-CREATE TABLE `canditado` (
+CREATE TABLE `candidato` (
   `id` int(11) NOT NULL,
   `nome` varchar(80) NOT NULL,
   `cargo` varchar(20) NOT NULL,
@@ -189,9 +189,9 @@ ALTER TABLE `bairro`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `canditado`
+-- Índices para tabela `candidato`
 --
-ALTER TABLE `canditado`
+ALTER TABLE `candidato`
   ADD PRIMARY KEY (`id`),
   ADD KEY `id_ano` (`id_ano`),
   ADD KEY `id_escolaridade` (`id_escolaridade`),
@@ -269,9 +269,9 @@ ALTER TABLE `bairro`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT de tabela `canditado`
+-- AUTO_INCREMENT de tabela `candidato`
 --
-ALTER TABLE `canditado`
+ALTER TABLE `candidato`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
@@ -321,21 +321,21 @@ ALTER TABLE `zona`
 --
 
 --
--- Limitadores para a tabela `canditado`
+-- Limitadores para a tabela `candidato`
 --
-ALTER TABLE `canditado`
-  ADD CONSTRAINT `canditado_ibfk_1` FOREIGN KEY (`id_ano`) REFERENCES `ano` (`id`),
-  ADD CONSTRAINT `canditado_ibfk_2` FOREIGN KEY (`id_escolaridade`) REFERENCES `escolaridade` (`id`),
-  ADD CONSTRAINT `canditado_ibfk_3` FOREIGN KEY (`id_situacao`) REFERENCES `situacao_tot` (`id`),
-  ADD CONSTRAINT `canditado_ibfk_4` FOREIGN KEY (`id_partido`) REFERENCES `partido` (`id`);
+ALTER TABLE `candidato`
+  ADD CONSTRAINT `candidato_ibfk_1` FOREIGN KEY (`id_ano`) REFERENCES `ano` (`id`),
+  ADD CONSTRAINT `candidato_ibfk_2` FOREIGN KEY (`id_escolaridade`) REFERENCES `escolaridade` (`id`),
+  ADD CONSTRAINT `candidato_ibfk_3` FOREIGN KEY (`id_situacao`) REFERENCES `situacao_tot` (`id`),
+  ADD CONSTRAINT `candidato_ibfk_4` FOREIGN KEY (`id_partido`) REFERENCES `partido` (`id`);
 
 --
 -- Limitadores para a tabela `entrevistado`
 --
 ALTER TABLE `entrevistado`
   ADD CONSTRAINT `entrevistado_ibfk_1` FOREIGN KEY (`id_bairro`) REFERENCES `bairro` (`id`),
-  ADD CONSTRAINT `entrevistado_ibfk_2` FOREIGN KEY (`id_cand_prefeito`) REFERENCES `canditado` (`id`),
-  ADD CONSTRAINT `entrevistado_ibfk_3` FOREIGN KEY (`id_cand_vereador`) REFERENCES `canditado` (`id`),
+  ADD CONSTRAINT `entrevistado_ibfk_2` FOREIGN KEY (`id_cand_prefeito`) REFERENCES `candidato` (`id`),
+  ADD CONSTRAINT `entrevistado_ibfk_3` FOREIGN KEY (`id_cand_vereador`) REFERENCES `candidato` (`id`),
   ADD CONSTRAINT `entrevistado_ibfk_4` FOREIGN KEY (`id_escolaridade`) REFERENCES `escolaridade` (`id`),
   ADD CONSTRAINT `entrevistado_ibfk_5` FOREIGN KEY (`id_partido`) REFERENCES `partido` (`id`);
 
