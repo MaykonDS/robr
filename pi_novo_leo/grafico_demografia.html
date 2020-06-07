@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ROBR</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>   
+    
+</head>
+<body style="display: grid;">
+ 
+  <div class="container header-votacao">
+    <h2>Escolaridade dos Eleitores</h2>
+    <p>O gráfico abaixo apresenta a escolaridade dos Eleitores nas eleições dos anos 2008 2012, 2018 e 2020 do primeiro turno</p>
+  </div>
+  
+  <div class="container" id="opcoes">
+    <button class="btn" >Insert sort</button>
+    <button class="btn" >Bublue sort</button>
+    <button class="btn" >Quick Sort</button>
+    <button class="btn" >Merge Sort</button>
+  </div>
+  
+  <div class="container" id="results">
+    <canvas id="escolaridadeEleitores" height="400" width="800"></canvas>
+  </div>
+  <br>
+  <div class="container header-votacao">
+    <h2>Genero Eleitores por ano</h2>
+    <p>O gráfico abaixo apresenta os generos dos Eleitores dos anos 2008 2012, 2018 e 2020</p>
+  </div>
+
+  <div class="container" id="results">
+    <canvas id="generoEleitores" height="400" width="800"></canvas>
+  </div>
+</body>
+<script>
+
+var chart = new Chart(document.getElementById("escolaridadeEleitores"), {
+    type: 'bar',
+    data: {
+      labels: ["2008", "2012", "2018", "2020"],
+      datasets: [{
+          label: "Ensino Fundametal Imcompleto",
+          backgroundColor: "#4caf50",
+          data: [408,547,675,734]
+        }, {
+          label:"Ensino Fundametal Completo",
+          backgroundColor: "#4480ff",
+          data: [890,456,900,3200]
+        }, {
+          label: "Ensino Medio Imcompleto",
+          backgroundColor: "#f4b400",
+          data: [4560,5689,5631,7034],
+        }, {
+          label: "Ensino Medio Completo",  
+          backgroundColor: "#f44336",
+          data: [1303,2201,7803,8478]
+        },
+        {
+          label: "Ensino Superior",
+          backgroundColor: "#e84c11",
+          data: [9000,5689,6700,2478]
+        }
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Dados de origem do TSE'
+      }
+    }
+});
+
+var chart = new Chart(document.getElementById("generoEleitores"), {
+  type: 'line',
+  data: {
+    labels: [2008, 2012, 2018, 2020],
+    datasets: [{ 
+        data: [9000, 3400, 3499, 8900],
+        label: "Masculino",
+        backgroundColor: "#4480ff",
+        borderColor: "#4480ff",
+        fill: false
+      }, { 
+        data: [349,6799,3421,1349],
+        label: "Feminino",
+        backgroundColor: "#f4b400",
+        borderColor: "#f4b400",
+        fill: false
+      }, { 
+        data: [168,10,18, 56],
+        label: "Outros",
+        backgroundColor: "#f44336",
+        borderColor: "#f44336",
+        fill: false
+      }
+    ]
+  },
+  options: {
+    title: {
+      display: true,
+      text: 'Dados pegos do TSE'
+    }
+  }
+});
+</script>
+</html>

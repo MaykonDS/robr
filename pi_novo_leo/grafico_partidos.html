@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ROBR</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>   
+</head>
+<body style="display: grid;">
+ 
+  <div class="container header-votacao">
+    <h2>Resultado Partido</h2>
+    <p>O gráfico abaixo apresenta o resultado das eleições dos anos 2008 2012, 2018 e 2020 do primeiro turno</p>
+  </div>
+  
+  <div class="container" id="opcoes">
+    <button class="btn" >Insert sort</button>
+    <button class="btn" >Bublue sort</button>
+    <button class="btn" >Quick Sort</button>
+    <button class="btn" >Merge Sort</button>
+  </div>
+  
+  <div class="container" id="results">
+    <canvas id="resultadoPartido"  width="800"></canvas>
+  </div>
+  <br>
+  <div class="container header-votacao">
+    <h2>Quantidade de Partidos por ano</h2>
+    <p>O gráfico abaixo apresenta o total de partidos que participaram das eleições dos anos 2008 2012, 2018 e 2020</p>
+  </div>
+
+  <div class="container" id="results">
+    <canvas id="quantidePartidos" height="400" width="800"></canvas>
+  </div>
+</body>
+<script>
+var ctx = document.getElementById('resultadoPartido').getContext('2d');
+var chart = new Chart(ctx, {
+    
+    type: 'horizontalBar',
+
+    data: {
+        labels: ['PSDB', 'Partido Novo', 'PT do B', 'PT'],
+        datasets: [{
+            label: "# 2008",
+            backgroundColor: '#4caf50',
+            borderWidth: 1,
+            data: [12, 19, 3, 5],
+        },
+        {
+          label: "# 2012",
+            backgroundColor: ' #4480ff', 
+            borderWidth: 1,
+            data: [2, 8, 12, 25],
+        },
+        {
+          label: "# 2018",
+            backgroundColor: '#f4b400',
+            borderWidth: 1,
+            data: [6, 12, 24, 32],
+        },
+        {
+          label: "# 2020",
+            backgroundColor: '#f44336',
+            borderWidth: 1,
+            data: [43, 2, 5, 11],
+        }
+        ]
+        
+    },
+
+    options: {}
+});
+
+var chart = new Chart(document.getElementById("quantidePartidos"), {
+    type: 'pie',
+    data: {
+      labels: ["# 2008", "# 2012", "# 2018", "# 2020"],
+      datasets: [{
+        backgroundColor: ["#4caf50", "#4480ff","#f4b400","#f44336"],
+        data: [2478,5267,4590,2134]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: "Dados de origem do TSE",
+      }
+    }
+});
+</script>
+</html>

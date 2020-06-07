@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ROBR</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>   
+
+</head>
+<body>
+ 
+  <h1 style="
+      color: #5f5b5b;
+      font-size: 100px;
+  ">ROBR</h1>
+
+  <h1><span class="text blue">Importações</span> e muito mais</h1>
+
+
+  
+</body>
+<script>
+    const letras = ["Importações", "Relatorios", "Simulações"],
+colors = ["green", "yellow", "blue"],
+text = document.querySelector(".text");
+
+
+function* generator() {
+  var index = 0;
+  while (true) {
+    yield index++;
+
+    if (index > 2) {
+      index = 0;
+    }
+  }
+}
+
+function printLetra(letra) {
+  let i = 0;
+  text.innerHTML = "";
+  text.classList.add(colors[letras.indexOf(letra)]);
+  let id = setInterval(() => {
+    if (i >= letra.length) {
+      deleteLetra();
+      clearInterval(id);
+    } else {
+      text.innerHTML += letra[i];
+      i++;
+    }
+  }, 500);
+}
+
+
+function deleteLetra() {
+  let word = text.innerHTML;
+  let i = word.length - 1;
+  let id = setInterval(() => {
+    if (i >= 0) {
+      text.innerHTML = text.innerHTML.substring(0, text.innerHTML.length - 1);
+      i--;
+    } else {
+      text.classList.remove(colors[letras.indexOf(word)]);
+      printLetra(letras[gen.next().value]);
+      clearInterval(id);
+    }
+  }, 500);
+}
+
+let gen = generator();
+
+printLetra(letras[gen.next().value]);
+</script>
+</html>

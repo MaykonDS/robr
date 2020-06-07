@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ROBR</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.6.1/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.6.1/js/buttons.html5.min.js"></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css'>  
+    <link rel='stylesheet' type='text/css' media='screen' href='grafico.css'>
+</head>
+<body style="display: grid;">
+ 
+    <div class="container header-votacao">
+      <h2>Escolaridade dos Eleitores</h2>
+      <p>O gráfico abaixo apresenta a escolaridade dos Eleitores nas eleições dos anos 2008 2012, 2018 e 2020 do primeiro turno</p>
+    </div>
+    
+    <div class="container" id="opcoes">
+      <button class="btn" >Insert sort</button>
+      <button class="btn" >Bublue sort</button>
+      <button class="btn" >Quick Sort</button>
+      <button class="btn" >Merge Sort</button>
+    </div>
+    
+    <div class="container" id="results">
+        <table id="tabela" class="tabela table-dark" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Partido</th>
+                    <th>Cargo</th>
+                    <th>Cidade</th>
+                    <th>Qtd</th>
+                    <th>Situação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Hagge</td>
+                    <td>PT</td>
+                    <td>Prefeito</td>
+                    <td>Curitiba</td>
+                    <td>2588888</td>
+                    <td>Morto</td>
+                </tr>
+                <tr>
+                    <td>Hagge</td>
+                    <td>PT</td>
+                    <td>Prefeito</td>
+                    <td>Curitiba</td>
+                    <td>2588888</td>
+                    <td>Morto</td>
+                </tr>
+            </tbody>
+        
+        </table>
+    </div>
+    
+  </body>
+<script>
+$(document).ready(function() {
+    $('#tabela').DataTable( {
+        dom: 'Bfrtip',
+        buttons: [
+            'excelHtml5',
+            'csvHtml5',
+            'pdfHtml5'
+        ],
+        "language": {
+            "lengthMenu": "Mostrar _MENU_ linhas",
+            "zeroRecords": "Nada Encontrado ;-;",
+            "info": "Pagina _PAGE_ de _PAGES_",
+            "search": "Pesquisa:",
+            "infoEmpty": "Nenhum resultado encontrado",
+            "infoFiltered": "(use o filtro novamente)",
+             "paginate": {
+        "first":      "Primeiro",
+        "last":       "Ultimo",
+        "next":       "Proximo",
+        "previous":   "Antes"
+    }
+        }
+    } );
+} );
+</script>
+</html>
