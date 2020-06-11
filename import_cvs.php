@@ -1,5 +1,8 @@
 <?php
 include 'importacao/consulta_cand.php';
+include 'importacao/perfil_eleitorado.php';
+include 'importacao/votacao_zona_secao.php';
+include 'importacao/geral_functions.php';
 include 'database.php';
 ?>
 
@@ -45,11 +48,22 @@ include 'database.php';
     if(isset($_POST['submit']))
     {
 		$ano_value = $_POST['year'];
-        $tmpName = $_FILES['consultCand']['tmp_name'];
+		$tmpCand = $_FILES['consultCand']['tmp_name'];
+		$tmpPerfil = $_FILES['perfilEleitorado']['tmp_name'];
+		$tmpVoto = $_FILES['votoSecao']['tmp_name'];
+
 		// Abre o arquivo csv escolhido.
-        if (($handle = fopen($tmpName, "r")) !== FALSE) {
+        if ($tmpCand != null && ($handle = fopen($tmpCand, "r")) !== FALSE) {
            // Função para importar dados do candidato
 		   importCand($handle, $ano_value, $conn);
+		}
+		if ($tmpPerfil != null) {
+			// Função para importar dados do perfil eleitorado
+			importPerfilEleitor($tmpPerfil, $ano_value, $conn);
+		}
+		if ($tmpVoto != null) {
+			// Função para importar dados da votacao por secao
+			importVotoSecao($tmpVoto, $ano_value, $conn);
 		}
     }
     ?>

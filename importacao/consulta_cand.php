@@ -1,5 +1,6 @@
 <?php
 
+
 function importCand($handle, $anoString, $conn){
 	$row = 1;
 	while ((@$data = fgetcsv($handle, 1000, ";")) !== FALSE) {
@@ -62,26 +63,6 @@ function verifyPartido($nome, $numero, $sigla, $coligacao, $composicao, $ano, $c
 	}
 }
 
-function verifyEscolaridade($escolaridade, $conn){
-	$query = "SELECT id FROM escolaridade WHERE escolaridade='$escolaridade'";
-	$result = mysqli_query($conn, $query);
-	// Se já tiver a escolaridade adicionada no banco irá somente retornar o id dela.
-	if (@mysqli_num_rows($result)>0) {
-		$row = mysqli_fetch_array($result);
-		return $row["id"];
-	// Se não tiver a escolaridade no banco irá dar um insert e retornar o id.
-	} else {
-		$query = "INSERT INTO escolaridade(escolaridade) 
-		VALUES ('$escolaridade')";
-		if (mysqli_query($conn, $query)) {
-			return mysqli_insert_id($conn);
-		} else {
-			return mysqli_insert_id($conn);
-			return;
-		}
-	}
-}
-
 function verifySituacaoTotal($situacao, $conn){
 	$query = "SELECT id FROM situacao_tot WHERE situacao='$situacao'";
 	$result = mysqli_query($conn, $query);
@@ -102,24 +83,6 @@ function verifySituacaoTotal($situacao, $conn){
 	}
 }
 
-function verifyAno($ano, $conn){
-	$query = "SELECT id FROM ano WHERE desc_ano='$ano'";
-	$result = mysqli_query($conn, $query);
-	// Se já tiver a escolaridade adicionada no banco irá somente retornar o id dela.
-	if (@mysqli_num_rows($result)>0) {
-		$row = mysqli_fetch_array($result);
-		return $row["id"];
-	// Se não tiver a escolaridade no banco irá dar um insert e retornar o id.
-	} else {
-		$query = "INSERT INTO ano(desc_ano) 
-		VALUES ('$ano')";
-		if (mysqli_query($conn, $query)) {
-			return mysqli_insert_id($conn);
-		} else {
-			echo "ERRRO NA QUERY -> $query";
-			return;
-		}
-	}
-}
+
 
 ?>
