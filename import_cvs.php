@@ -53,9 +53,9 @@ include 'database.php';
 		$tmpVoto = $_FILES['votoSecao']['tmp_name'];
 
 		// Abre o arquivo csv escolhido.
-        if ($tmpCand != null && ($handle = fopen($tmpCand, "r")) !== FALSE) {
+        if ($tmpCand != null) {
            // Função para importar dados do candidato
-		   importCand($handle, $ano_value, $conn);
+		   importCand($tmpCand, $ano_value, $conn);
 		}
 		if ($tmpPerfil != null) {
 			// Função para importar dados do perfil eleitorado
