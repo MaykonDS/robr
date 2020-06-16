@@ -22,7 +22,6 @@ function verifyAno($ano, $conn){
 
 function verifyEscolaridade($escolaridade, $conn){
 	$query = "SELECT id FROM escolaridade WHERE escolaridade LIKE '%$escolaridade%'";
-        echo $query;
 	$result = mysqli_query($conn, $query);
 	// Se já tiver a escolaridade adicionada no banco irá somente retornar o id dela.
 	if (@mysqli_num_rows($result)>0) {
@@ -39,6 +38,7 @@ function verifyEscolaridade($escolaridade, $conn){
 		}
 	}
 }
+
 function verifyZona($zona, $conn){
     $query = "SELECT id FROM zona WHERE num_zona='$zona'";
 	$result = mysqli_query($conn, $query);

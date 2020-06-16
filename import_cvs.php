@@ -2,6 +2,7 @@
 include 'importacao/consulta_cand.php';
 include 'importacao/perfil_eleitorado.php';
 include 'importacao/votacao_zona_secao.php';
+include 'importacao/pesquisa_eleicao.php';
 include 'importacao/geral_functions.php';
 include 'database.php';
 ?>
@@ -39,6 +40,7 @@ include 'database.php';
 	<label class="subtitle">Selecione a planilha voto_secao</label><p>
 	<input class="style" type="file" name="votoSecao" id="votoSecao" accept=".csv">
 	<p>
+	
 	
     <input type="submit" name="submit" value="Importar">
     </form>
