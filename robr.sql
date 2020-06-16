@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 17-Mar-2020 às 01:17
+-- Tempo de geração: 16-Jun-2020 às 03:40
 -- Versão do servidor: 10.4.11-MariaDB
--- versão do PHP: 7.2.28
+-- versão do PHP: 7.4.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -56,7 +56,7 @@ CREATE TABLE `candidato` (
   `id` int(11) NOT NULL,
   `nome` varchar(80) NOT NULL,
   `cargo` varchar(20) NOT NULL,
-  `seq_cand` int(11) NOT NULL,
+  `seq_cand` int(20) NOT NULL,
   `num_cand` int(11) NOT NULL,
   `desc_situacao` varchar(30) NOT NULL,
   `id_partido` int(11) NOT NULL,
@@ -65,7 +65,8 @@ CREATE TABLE `candidato` (
   `sexo` char(1) NOT NULL,
   `id_escolaridade` int(11) NOT NULL,
   `id_situacao` int(11) NOT NULL,
-  `id_ano` int(11) NOT NULL
+  `id_ano` int(11) NOT NULL,
+  `turno` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -157,7 +158,8 @@ CREATE TABLE `votacao_zona_secao` (
   `desc_cargo` varchar(50) NOT NULL,
   `num_votavel` int(11) NOT NULL,
   `qtd_votos` int(11) NOT NULL,
-  `id_ano` int(11) NOT NULL
+  `id_ano` int(11) NOT NULL,
+  `turno` int(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -169,7 +171,7 @@ CREATE TABLE `votacao_zona_secao` (
 CREATE TABLE `zona` (
   `id` int(11) NOT NULL,
   `num_zona` int(11) NOT NULL,
-  `id_bairro` int(11) NOT NULL
+  `id_bairro` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
