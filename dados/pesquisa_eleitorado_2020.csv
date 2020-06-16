@@ -1,0 +1,207 @@
+﻿DATA,NOME,IDADE,SEXO,ESCOLARIDADE,BAIRRO,PREFEITO,PARTIDO_PREFEITO,VEREADOR,PARTIDO_VEREADOR,ANO,RELIGIÃO,RENDA,COR
+4/27/2020,Alencar Junior Silva,21,Masculino,Superior - Incompleto,Santa Felicidade,Marla Victória,PP,Alex Rato - Patriota,Patriota,2020,Não Informado,Não Informado,BRANCO
+4/27/2020,Alberto Mendes,23,Masculino,Superior - Incompleto,Santa Felicidade,João Arruda,MDB,Bruno Pessuti ,PODE,2020,Não Informado,Não Informado,BRANCO
+4/27/2020,Guilherme Zanardi,23,Masculino,Superior - Incompleto,Bairro Alto,Goura,PDT,Mestre Pop ,PSD,2020,Não Informado,Não Informado,BRANCO
+4/27/2020,Adrielle Lima,21,Feminino,Superior - Incompleto,Xaxim,Rafael Greca,DEM,Mestre Pop,PSD,2020,Não Informado,Não Informado,BRANCO
+4/27/2020,Caroline Reis,21,Feminino,Superior - Incompleto,Santa Felicidade,Ney Leprevost,PSD,Professor Euler,PSD,2020,Não Informado,Não Informado,BRANCO
+4/27/2020,Vinicius B,42,Masculino,Superior - Completo,Hauer,Rafael Greca,DEM,Sem candidato ainda ,NULL,2020,Não Informado,Não Informado,BRANCO
+4/28/2020,Salete Bastiani,48,Feminino,Médio - Completo,Santa felicidade,João Guilherme,NOVO,Professor Silberto , MDB,2020,Não Informado,Não Informado,BRANCO
+4/28/2020,Botelho Kunavara,99,Feminino,Fundamental - Incompleto,Eva Dias,Rafael Greca,DEM,Isadora Bocchetti,MDB,2020,Não Informado,Não Informado,BRANCO
+4/28/2020,Pedro Paulo,25,Masculino,Superior - Completo,Cidade Industrial,Rafael Greca,DEM,Zezinho Sabará ,DEM,2020,Não Informado,Não Informado,BRANCO
+4/28/2020,Salete bastiani,48,Feminino,Médio - Completo,Santa felicidade,João Guilherme,NOVO,Professor Silberto , MDB,2020,Não Informado,Não Informado,BRANCO
+4/28/2020,Fernando Aboim,57,Masculino,Pós-graduação - Doutorado Incompleto,Cristo Rei,Rafael Greca,DEM,Toninho da Farmácia,DEM,2020,Não Informado,Não Informado,BRANCO
+4/28/2020,Cristiano Cordeiro,19,Masculino,Superior - Incompleto,Campo Comprido,Rafael Greca,DEM,Toninho da Farmácia,DEM,2020,Não Informado,Não Informado,BRANCO
+4/30/2020,Léo Araujo,20,Masculino,Superior - Incompleto,Pinhaville,NULL,NULL,NULL,NULL,2020,Não Informado,Não Informado,BRANCO
+5/8/2020,Josi oliveira ,48,Feminino,Superior - Completo,Santo Inácio ,Ney Leprevost,PSD,Katia Dittrich ,SOLIEDARIEDADE,2020,Não Informado,Não Informado,BRANCO
+5/8/2020,Gabriel Rodrigues,21,Masculino,Superior - Incompleto,Cajuru,Gustavo Fruet,PDT,Dona Lourdes - PSB,PSDB,2020,Não Informado,Não Informado,BRANCO
+5/8/2020,Janete Souza,56,Feminino,Superior - Incompleto,Boqueirão,Rafael Greca ,DEM,Dona Lourdes - PSB,PSDB,2020,Não Informado,Não Informado,BRANCO
+5/18/2020,Valdiclei Lopes da Silva,37,Masculino,Superior - Completo,Cidade Industrial,Luciano Ducci,PDB,Maria Do bairro,PDB,2020,Não Informado,Não Informado,BRANCO
+5/18/2020,Keli Cordeiro dos Santos ,27,Feminino,Superior - Completo,Centro ,Gleise Hoffmann,PT,Cristiano Santos - PV,PV,2020,Não Informado,Não Informado,BRANCO
+5/18/2020,Robson Marczak ,35,Masculino,Superior - Completo,Bairro alto,Delegado Francischini,PSL,Pier Petruzziello - PTB,PTB,2020,Não Informado,Não Informado,BRANCO
+5/18/2020,Márcia Theodoro ,36,Feminino,Médio - Incompleto,São Braz ,Rafael Greca,DEM,Ezequias Barros - PMB,PMB,2020,Não Informado,Não Informado,BRANCO
+5/18/2020,Luciano Duarte Batista ,37,Masculino,Superior - Incompleto,Fanny,Luizão Goulart,Republicanos,Dr. Wolmir - REPUBLICANOS,REPUBLICANOS,2020,Não Informado,Não Informado,BRANCO
+6/9/2020,Leonardo Hagge,22,Masculino,Superior - Incompleto,Parolim,Zé Boni,PTC,Professor Euler - PSD,PSD,2020,Não Informado,Não Informado,BRANCO
+4/27/2020,Luan Gael Breno Aragão,22,Masculino,Fundamental - Incompleto,Santa Felicidade,Marla Victória,PP,Alex Rato - Patriota,Patriota,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/27/2020,Marli Hadassa Corte Real,22,Feminino,Superior - Completo,Santa Felicidade,João Arruda,MDB,Bruno Pessuti ,PODE,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/27/2020,Enrico Nelson Renato Silveira,22,Masculino,Médio - Completo,Bairro Alto,Goura,PDT,Mestre Pop ,PSD,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/27/2020,Sebastião Henry Danilo Aragão,22,Masculino,Superior - Incompleto,Santa Felicidade,Ney Leprevost,PSD,Mestre Pop,PSD,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/27/2020,Luiz Oliver Giovanni Alves,22,Masculino,Superior - Incompleto,Hauer,Rafael Greca,DEM,Professor Euler,PSD,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Fátima Silvana Jesus,22,Feminino,Superior - Completo,Santa felicidade,João Guilherme,NOVO,Sem candidato ainda ,NULL,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Ester Luciana Freitas,35,Feminino,Superior - Incompleto,Santa felicidade,Rafael Greca,DEM,Professor Silberto , MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Manuel Paulo Danilo da Rocha,35,Masculino,Superior - Incompleto,Eva Dias,Rafael Greca,DEM,Isadora Bocchetti,MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Emanuel Otávio Silva,35,Masculino,Superior - Completo,Cidade Industrial,João Guilherme,NOVO,Zezinho Sabará ,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Patrícia Tatiane Teresinha Moura,35,Feminino,Superior - Completo,santa felicidade,Rafael Greca,DEM,Professor Silberto , MDB,2020,CATÓLICO,Não Informado,NÃO INFORMADO
+4/28/2020,Luiza Daniela Tereza de Paula,35,Feminino,Superior - Completo,Cristo Rei,Rafael Greca,DEM,Toninho da Farmácia,DEM,2020,CATÓLICO,Não Informado,NÃO INFORMADO
+4/28/2020,Daniela Adriana Rebeca Souza,35,Feminino,Médio - Incompleto,Campo Comprido,NULL,NULL,Toninho da Farmácia,DEM,2020,CATÓLICO,Não Informado,NÃO INFORMADO
+4/30/2020,Alícia Rebeca Fogaça,35,Feminino,Superior - Incompleto,Pinhaville,Ney Leprevost,PSD,NULL,NULL,2020,CATÓLICO,Não Informado,NÃO INFORMADO
+5/8/2020,Stella Gabriela Evelyn Ramos,35,Feminino,Superior - Incompleto,Santo Inácio ,Gustavo Fruet,PDT,Katia Dittrich ,SOLIEDARIEDADE,2020,CATÓLICO,Não Informado,NÃO INFORMADO
+5/8/2020,Natália Rayssa Galvão,35,Feminino,Superior - Completo,Boqueirão,Luciano Ducci,PDB,Dona Lourdes - PSB,PSDB,2020,CATÓLICO,Não Informado,NÃO INFORMADO
+5/18/2020,Ester Mariana Nicole da Costa,35,Feminino,Médio - Completo,Cidade Industrial,Gleise Hoffmann,PT,Dona Lourdes - PSB,PSDB,2020,CATÓLICO,Não Informado,NÃO INFORMADO
+5/18/2020,Luan Felipe Bryan da Mota,35,Masculino,Pós-graduação - Doutorado Incompleto,Centro ,Delegado Francischini,PSL,Maria Do bairro,PDB,2020,CATÓLICO,Não Informado,NÃO INFORMADO
+5/18/2020,Renato Tomás Marcos de Paula,35,Masculino,Superior - Incompleto,Bairro alto,Rafael Greca,DEM,Cristiano Santos - PV,PV,2020,CATÓLICO,Não Informado,NÃO INFORMADO
+5/18/2020,Manuela Isabel Aragão,35,Feminino,Superior - Incompleto,São Braz ,Luizão Goulart,Republicanos,Pier Petruzziello - PTB,PTB,2020,CATÓLICO,Não Informado,NÃO INFORMADO
+5/18/2020,Felipe Nathan Ian Barbosa,35,Masculino,Superior - Completo,Fanny,Zé Boni,PTC,Ezequias Barros - PMB,PMB,2020,CATÓLICO,Não Informado,NÃO INFORMADO
+6/9/2020,Aurora Brenda da Costa,21,Feminino,Superior - Incompleto,Parolim,Marla Victória,PP,Dr. Wolmir - REPUBLICANOS,REPUBLICANOS,2020,CATÓLICO,Não Informado,NÃO INFORMADO
+4/27/2020,Vanessa Lorena Dias,21,Feminino,Superior - Incompleto,Santa Felicidade,João Arruda,MDB,Professor Euler - PSD,PSD,2020,CATÓLICO,Não Informado,NÃO INFORMADO
+4/27/2020,Thales José Victor Nogueira,21,Masculino,Superior - Completo,Santa Felicidade,Goura,PDT,Alex Rato - Patriota,Patriota,2020,CATÓLICO,Não Informado,NÃO INFORMADO
+4/27/2020,Raul Severino Cavalcanti,21,Masculino,Superior - Completo,Bairro Alto,Rafael Greca,DEM,Bruno Pessuti ,PODE,2020,CATÓLICO,Não Informado,NÃO INFORMADO
+4/27/2020,Márcio Filipe Joaquim da Cruz,21,Masculino,Superior - Completo,Xaxim,Ney Leprevost,PSD,Mestre Pop ,PSD,2020,CATÓLICO,Não Informado,NÃO INFORMADO
+4/27/2020,Martin Sérgio Leonardo Barros,21,Masculino,Médio - Incompleto,Santa Felicidade,Rafael Greca,DEM,Mestre Pop,PSD,2020,CATÓLICO,Não Informado,NÃO INFORMADO
+4/27/2020,Alessandra Gabrielly Porto,21,Feminino,Superior - Incompleto,Hauer,João Guilherme,NOVO,Professor Euler,PSD,2020,CATÓLICO,Não Informado,NÃO INFORMADO
+4/28/2020,Bento Raul Guilherme Souza,21,Masculino,Superior - Incompleto,Santa Felicidade,Rafael Greca,DEM,Sem candidato ainda ,NULL,2020,CATÓLICO,Não Informado,NÃO INFORMADO
+4/28/2020,Juan Theo dos Santos,21,Masculino,Superior - Incompleto,Santa Felicidade,Rafael Greca,DEM,Professor Silberto , MDB,2020,CATÓLICO,Não Informado,NÃO INFORMADO
+4/28/2020,Kevin Eduardo Tomás Baptista,21,Masculino,Superior - Incompleto,Santa Felicidade,João Guilherme,NOVO,Isadora Bocchetti,MDB,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+4/28/2020,Leandro Heitor Mendes,21,Masculino,Superior - Incompleto,Bairro Alto,Rafael Greca,DEM,Zezinho Sabará ,DEM,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+4/28/2020,Renan Miguel Vieira,21,Masculino,Superior - Incompleto,Xaxim,Rafael Greca,DEM,Professor Silberto , MDB,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+4/28/2020,Ricardo Martin Cláudio Souza,21,Masculino,Superior - Incompleto,Santa Felicidade,NULL,NULL,Toninho da Farmácia,DEM,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+4/28/2020,Noah Manuel da Costa,21,Masculino,Superior - Completo,Hauer,Ney Leprevost,PSD,Toninho da Farmácia,DEM,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+4/30/2020,Tomás Heitor das Neves,21,Masculino,Médio - Completo,Santa felicidade,Gustavo Fruet,PDT,NULL,NULL,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+5/8/2020,Lorenzo Levi Murilo Nascimento,21,Masculino,Superior - Completo,Cidade Industrial,Luciano Ducci,PDB,Katia Dittrich ,SOLIEDARIEDADE,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+5/8/2020,Breno Mário Fogaça,21,Masculino,Médio - Completo,Santa felicidade,Gleise Hoffmann,PT,Dona Lourdes - PSB,PSDB,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+5/18/2020,Miguel César Moura,21,Masculino,Pós-graduação - Doutorado Incompleto,Cristo Rei,Delegado Francischini,PSL,Dona Lourdes - PSB,PSDB,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+5/18/2020,Nicolas Kevin Lorenzo Barbosa,21,Masculino,Superior - Incompleto,Campo Comprido,Rafael Greca,DEM,Maria Do bairro,PDB,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+5/18/2020,Rafael Benedito Thiago Bernardes,21,Masculino,Superior - Incompleto,Pinhaville,Luizão Goulart,Republicanos,Cristiano Santos - PV,PV,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+5/18/2020,Anderson Bernardo da Costa,21,Masculino,Superior - Completo,Santo Inácio ,Zé Boni,PTC,Pier Petruzziello - PTB,PTB,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+5/18/2020,Gabriel Roberto Luiz Vieira,21,Masculino,Superior - Incompleto,Cajuru,Marla Victória,PP,Ezequias Barros - PMB,PMB,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+6/9/2020,Marcos Lucas Gonçalves,21,Masculino,Superior - Incompleto,Boqueirão,João Arruda,MDB,Dr. Wolmir - REPUBLICANOS,REPUBLICANOS,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+4/27/2020,Fernando Henrique Yago Martins,21,Masculino,Superior - Completo,Cidade Industrial,Goura,PDT,Professor Euler - PSD,PSD,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+4/27/2020,Thales Raimundo Galvão,21,Masculino,Superior - Completo,Centro ,Rafael Greca,DEM,Alex Rato - Patriota,Patriota,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+4/27/2020,João Marcos Vinicius Ferreira,21,Masculino,Superior - Completo,Bairro alto,Ney Leprevost,PSD,Bruno Pessuti ,PODE,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+4/27/2020,Severino Noah Dias,21,Masculino,Médio - Incompleto,São Braz ,Rafael Greca,DEM,Mestre Pop ,PSD,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+4/27/2020,Cauê Enzo Yuri Almeida,21,Masculino,Superior - Incompleto,Fanny,João Guilherme,NOVO,Mestre Pop,PSD,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+4/27/2020,Levi Igor Pedro Lopes,21,Masculino,Superior - Incompleto,Parolim,Rafael Greca,DEM,Professor Euler,PSD,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+4/28/2020,Isaac Tiago Almada,21,Masculino,Fundamental - Incompleto,Santa Felicidade,Rafael Greca,DEM,Sem candidato ainda ,NULL,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+4/28/2020,Nelson Calebe Almada,21,Masculino,Superior - Completo,Santa Felicidade,João Guilherme,NOVO,Professor Silberto , MDB,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+4/28/2020,Bento Pietro Lucca Silva,21,Masculino,Médio - Completo,Bairro Alto,Rafael Greca,DEM,Isadora Bocchetti,MDB,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+4/28/2020,Márcio Felipe Kauê Teixeira,21,Masculino,Pós-graduação - Doutorado Incompleto,Xaxim,Rafael Greca,DEM,Zezinho Sabará ,DEM,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+4/28/2020,Sebastião Erick Marcelo da Conceição,21,Masculino,Superior - Incompleto,Santa Felicidade,Prefeito,NULL,Professor Silberto , MDB,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+4/28/2020,Fábio Jorge Renan Peixoto,21,Masculino,Superior - Incompleto,Hauer,Ney Leprevost,PSD,Toninho da Farmácia,DEM,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+4/28/2020,Julio Mateus da Paz,21,Masculino,Superior - Completo,Santa felicidade,Gustavo Fruet,PDT,Toninho da Farmácia,DEM,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+5/8/2020,Oliver Guilherme Igor Galvão,21,Masculino,Superior - Incompleto,Eva Dias,Luciano Ducci,PDB,NULL,NULL,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+5/8/2020,Tomás Sebastião Rodrigues,21,Masculino,Superior - Completo,Cidade Industrial,Gleise Hoffmann,PT,Katia Dittrich ,SOLIEDARIEDADE,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+5/8/2020,Joana Carolina Maya,21,Feminino,Superior - Completo,santa felicidade,Delegado Francischini,PSL,Dona Lourdes - PSB,PSDB,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+5/18/2020,Clarice Isabela,21,Feminino,Superior - Completo,Cristo Rei,Rafael Greca,DEM,Dona Lourdes - PSB,PSDB,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+5/18/2020,Allana Márcia Silvana,21,Feminino,Médio - Incompleto,Campo Comprido,Luizão Goulart,Republicanos,Maria Do bairro,PDB,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+4/27/2020,Eloá Brenda,21,Feminino,Superior - Incompleto,Pinhaville,Zé Boni,PTC,Cristiano Santos - PV,PV,2020,EVANGÉLICO,Não Informado,NÃO INFORMADO
+4/27/2020,Laís Luna Isabelle,21,Feminino,Superior - Incompleto,Santo Inácio ,Marla Victória,PP,Pier Petruzziello - PTB,PTB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Antonella Francisca,21,Feminino,Fundamental - Incompleto,Cajuru,João Arruda,MDB,Ezequias Barros - PMB,PMB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Beatriz Letícia Maya,21,Feminino,Superior - Completo,Boqueirão,Goura,PDT,Dr. Wolmir - REPUBLICANOS,REPUBLICANOS,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Sarah Rosângela Mirella,21,Feminino,Médio - Completo,Cidade Industrial,Rafael Greca,DEM,Professor Euler - PSD,PSD,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Emanuelly Isabel Luana,21,Feminino,Pós-graduação - Doutorado Incompleto,Centro ,Ney Leprevost,PSD,Alex Rato - Patriota,Patriota,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Rosângela Eloá,21,Feminino,Superior - Incompleto,Bairro alto,Rafael Greca,DEM,Bruno Pessuti ,PODE,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Natália Laís Marlene,21,Feminino,Superior - Incompleto,São Braz ,João Guilherme,NOVO,Mestre Pop ,PSD,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Evelyn Marcela Bruna,21,Feminino,Superior - Completo,Fanny,Rafael Greca,DEM,Mestre Pop,PSD,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/30/2020,Manuela Francisca,21,Feminino,Superior - Incompleto,Parolim,Rafael Greca,DEM,Professor Euler,PSD,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Renata Lúcia,21,Feminino,Superior - Incompleto,Santa Felicidade,João Guilherme,NOVO,Sem candidato ainda ,NULL,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Sophia Tereza Joana,19,Feminino,Superior - Completo,Santa Felicidade,Rafael Greca,DEM,Professor Silberto , MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Analu Nicole Julia,19,Feminino,Superior - Completo,Bairro Alto,Rafael Greca,DEM,Isadora Bocchetti,MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/18/2020,Eduarda Lara Lavínia,19,Feminino,Superior - Completo,Xaxim,NULL,NULL,Zezinho Sabará ,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/18/2020,Yasmin Elza,19,Feminino,Médio - Incompleto,Santa Felicidade,Ney Leprevost,PSD,Professor Silberto , MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/27/2020,Aparecida Eduarda Hadassa,19,Feminino,Superior - Incompleto,Hauer,Gustavo Fruet,PDT,Toninho da Farmácia,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/27/2020,Joana Luzia,19,Feminino,Superior - Incompleto,Santa Felicidade,Rafael Greca ,DEM,Toninho da Farmácia,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Priscila Marina Betina,19,Feminino,Superior - Incompleto,Santa Felicidade,Luciano Ducci,PDB,NULL,NULL,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Mariane Ana Sandra,19,Feminino,Superior - Incompleto,Santa Felicidade,Gleise Hoffmann,PT,Katia Dittrich ,SOLIEDARIEDADE,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Lavínia Sebastiana,19,Feminino,Superior - Incompleto,Bairro Alto,Delegado Francischini,PSL,Dona Lourdes - PSB,PSDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Marli Lara,19,Feminino,Superior - Incompleto,Xaxim,Rafael Greca,DEM,Dona Lourdes - PSB,PSDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Jéssica Brenda Ester,19,Feminino,Superior - Incompleto,Santa Felicidade,Luizão Goulart,Republicanos,Maria Do bairro,PDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Esther Giovana,19,Feminino,Superior - Completo,Hauer,Zé Boni,PTC,Cristiano Santos - PV,PV,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Nina Sebastiana Rayssa,19,Feminino,Médio - Completo,Santa felicidade,Marla Victória,PP,Pier Petruzziello - PTB,PTB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/30/2020,Brenda Luiza,19,Feminino,Fundamental - Incompleto,Eva Dias,João Arruda,MDB,Ezequias Barros - PMB,PMB,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Heloise Yasmin,19,Feminino,Superior - Completo,Cidade Industrial,Goura,PDT,Dr. Wolmir - REPUBLICANOS,REPUBLICANOS,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Helena Isabella,19,Feminino,Médio - Completo,Santa felicidade,Rafael Greca,DEM,Professor Euler - PSD,PSD,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Danilo Renan Aragão,19,Masculino,Pós-graduação - Doutorado Incompleto,Cristo Rei,Ney Leprevost,PSD,Alex Rato - Patriota,Patriota,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/18/2020,Enrico José Oliver Corte Real,19,Masculino,Superior - Incompleto,Campo Comprido,Rafael Greca,DEM,Bruno Pessuti ,PODE,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/18/2020,Benedito Paulo Jorge Silveira,19,Masculino,Superior - Incompleto,Pinhaville,João Guilherme,NOVO,Mestre Pop ,PSD,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/27/2020,Vitor Marcos Leonardo Porto,19,Masculino,Superior - Completo,Santo Inácio ,Rafael Greca,DEM,Mestre Pop,PSD,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/27/2020,Igor Matheus Aragão,19,Masculino,Superior - Incompleto,Cajuru,Rafael Greca,DEM,Professor Euler,PSD,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Murilo Ruan Alves,19,Masculino,Superior - Incompleto,Boqueirão,João Guilherme,NOVO,Sem candidato ainda ,NULL,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Ian Gael Jesus,19,Masculino,Superior - Completo,Cidade Industrial,Rafael Greca,DEM,Professor Silberto , MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Thales Rafael Freitas,19,Masculino,Superior - Completo,Centro ,Rafael Greca,DEM,Isadora Bocchetti,MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Mário Ryan Elias da Rocha,19,Masculino,Superior - Completo,Bairro alto,Prefeito,NULL,Zezinho Sabará ,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Luiz Juan Martin Silva,24,Masculino,Médio - Incompleto,São Braz ,Ney Leprevost,PSD,Professor Silberto , MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Antonio Alexandre Hugo Moura,24,Masculino,Superior - Incompleto,Fanny,Gustavo Fruet,PDT,Toninho da Farmácia,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Ruan Oliver de Paula,24,Masculino,Superior - Incompleto,Parolim,Rafael Greca ,DEM,Toninho da Farmácia,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/30/2020,Carlos Eduardo Alexandre Davi Souza,24,Masculino,Fundamental - Incompleto,Santa Felicidade,Luciano Ducci,PDB,NULL,NULL,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Diogo Danilo Ruan Fogaça,24,Masculino,Superior - Completo,Santa Felicidade,Gleise Hoffmann,PT,Katia Dittrich ,SOLIEDARIEDADE,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Francisco Matheus Ramos,24,Masculino,Médio - Completo,Bairro Alto,Delegado Francischini,PSL,Dona Lourdes - PSB,PSDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Alexandre Paulo Caleb da Cruz,24,Masculino,Pós-graduação - Doutorado Incompleto,Xaxim,Rafael Greca,DEM,Dona Lourdes - PSB,PSDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/18/2020,Murilo Pedro Henrique Marcelo Galvão,24,Masculino,Superior - Incompleto,Santa Felicidade,Luizão Goulart,Republicanos,Maria Do bairro,PDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/18/2020,Rodrigo Samuel da Costa,24,Masculino,Superior - Incompleto,Hauer,Zé Boni,PTC,Cristiano Santos - PV,PV,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/27/2020,Miguel Enrico da Mota,24,Masculino,Superior - Completo,Santa felicidade,Marla Victória,PP,Pier Petruzziello - PTB,PTB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/27/2020,Samuel Lorenzo Manoel de Paula,24,Masculino,Superior - Incompleto,Santa felicidade,João Arruda,MDB,Ezequias Barros - PMB,PMB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Luan Sebastião Raimundo Aragão,24,Masculino,Superior - Incompleto,Eva Dias,Goura,PDT,Dr. Wolmir - REPUBLICANOS,REPUBLICANOS,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Emanuel Diogo Barbosa,24,Masculino,Superior - Completo,Cidade Industrial,Rafael Greca,DEM,Professor Euler - PSD,PSD,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Edson Erick Theo da Costa,24,Masculino,Superior - Completo,santa felicidade,Ney Leprevost,PSD,Alex Rato - Patriota,Patriota,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Pedro Henrique Fernando Dias,24,Masculino,Superior - Completo,Cristo Rei,Rafael Greca,DEM,Bruno Pessuti ,PODE,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Benjamin Heitor Nogueira,24,Masculino,Médio - Incompleto,Campo Comprido,João Guilherme,NOVO,Mestre Pop ,PSD,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Paulo Geraldo Murilo Cavalcanti,24,Masculino,Superior - Incompleto,Pinhaville,Rafael Greca,DEM,Mestre Pop,PSD,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Filipe Davi da Cruz,24,Masculino,Superior - Incompleto,Santo Inácio ,Rafael Greca,DEM,Professor Euler,PSD,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/30/2020,Marcelo Joaquim Sérgio Barros,24,Masculino,Fundamental - Incompleto,Cajuru,João Guilherme,NOVO,Sem candidato ainda ,NULL,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Marcos Vinicius Manuel Márcio Porto,24,Masculino,Superior - Completo,Boqueirão,Rafael Greca,DEM,Professor Silberto , MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Iago Theo Felipe Souza,24,Masculino,Médio - Completo,Cidade Industrial,Rafael Greca,DEM,Isadora Bocchetti,MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Bruna Carla Luna,24,Feminino,Pós-graduação - Doutorado Incompleto,Centro ,Prefeito,NULL,Zezinho Sabará ,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/18/2020,Isabella Ester Sophia,24,Feminino,Superior - Incompleto,Bairro alto,Ney Leprevost,PSD,Professor Silberto , MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/18/2020,Stella Emilly,24,Feminino,Superior - Incompleto,São Braz ,Gustavo Fruet,PDT,Toninho da Farmácia,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/27/2020,Stefany Kamilly,24,Feminino,Superior - Completo,Fanny,Rafael Greca ,DEM,Toninho da Farmácia,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/27/2020,Nicole Jaqueline Cláudia,24,Feminino,Superior - Incompleto,Parolim,Luciano Ducci,PDB,NULL,NULL,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Fátima Sandra Evelyn,24,Feminino,Superior - Incompleto,Santa Felicidade,Gleise Hoffmann,PT,Katia Dittrich ,SOLIEDARIEDADE,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Heloise Maitê,24,Feminino,Superior - Completo,Santa Felicidade,Delegado Francischini,PSL,Dona Lourdes - PSB,PSDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Sebastiana Luiza Jaqueline,24,Feminino,Superior - Completo,Bairro Alto,Rafael Greca,DEM,Dona Lourdes - PSB,PSDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Giovana Elza,24,Feminino,Superior - Completo,Xaxim,Luizão Goulart,Republicanos,Maria Do bairro,PDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Tereza Fabiana,24,Feminino,Médio - Incompleto,Santa Felicidade,Zé Boni,PTC,Zezinho Sabará ,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Bianca Marcela,24,Feminino,Superior - Incompleto,Hauer,Marla Victória,PP,Professor Silberto , MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Bárbara Isabela Carla,24,Feminino,Superior - Incompleto,Santa Felicidade,João Arruda,MDB,Toninho da Farmácia,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/30/2020,Rosa Sabrina,24,Feminino,Superior - Incompleto,Santa Felicidade,Goura,PDT,Toninho da Farmácia,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Jaqueline Fernanda Analu,24,Feminino,Superior - Incompleto,Santa Felicidade,Rafael Greca,DEM,NULL,NULL,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Nicole Rosa,24,Feminino,Superior - Incompleto,Bairro Alto,Ney Leprevost,PSD,Katia Dittrich ,SOLIEDARIEDADE,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Adriana Alícia,24,Feminino,Superior - Incompleto,Xaxim,Rafael Greca,DEM,Dona Lourdes - PSB,PSDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/18/2020,Juliana Mariane,24,Feminino,Superior - Incompleto,Santa Felicidade,João Guilherme,NOVO,Dona Lourdes - PSB,PSDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/18/2020,Alice Isabella,24,Feminino,Superior - Completo,Hauer,Rafael Greca,DEM,Maria Do bairro,PDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/27/2020,Cecília Maya Fabiana,24,Feminino,Médio - Completo,Santa felicidade,Rafael Greca,DEM,Cristiano Santos - PV,PV,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/27/2020,Yasmin Eloá Letícia,24,Feminino,Fundamental - Incompleto,Eva Dias,João Guilherme,NOVO,Pier Petruzziello - PTB,PTB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Lara Lúcia Isabela,24,Feminino,Superior - Completo,Cidade Industrial,Rafael Greca,DEM,Ezequias Barros - PMB,PMB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Isis Julia,24,Feminino,Médio - Completo,Santa felicidade,Rafael Greca,DEM,Dr. Wolmir - REPUBLICANOS,REPUBLICANOS,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Elza Cecília,35,Feminino,Pós-graduação - Doutorado Incompleto,Cristo Rei,Prefeito,NULL,Professor Euler - PSD,PSD,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Camila Adriana Tânia,35,Feminino,Superior - Incompleto,Campo Comprido,Ney Leprevost,PSD,Alex Rato - Patriota,Patriota,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Vanessa Carla,35,Feminino,Superior - Incompleto,Pinhaville,Gustavo Fruet,PDT,Bruno Pessuti ,PODE,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Eduarda Elaine,35,Feminino,Superior - Completo,Santo Inácio ,Rafael Greca ,DEM,Mestre Pop ,PSD,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Stella Caroline,35,Feminino,Superior - Incompleto,Cajuru,Luciano Ducci,PDB,Mestre Pop,PSD,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/30/2020,Luzia Aline,35,Feminino,Superior - Incompleto,Boqueirão,Gleise Hoffmann,PT,Professor Euler,PSD,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Elisa Emanuelly,35,Feminino,Superior - Completo,Cidade Industrial,Delegado Francischini,PSL,Sem candidato ainda ,NULL,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Simone Isabela,35,Feminino,Superior - Completo,Centro ,Rafael Greca,DEM,Professor Silberto , MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Danilo Renan Aragão,35,Masculino,Superior - Completo,Bairro alto,Luizão Goulart,Republicanos,Isadora Bocchetti,MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/18/2020,Enrico José Oliver Corte Real,35,Masculino,Médio - Incompleto,São Braz ,Zé Boni,PTC,Zezinho Sabará ,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/18/2020,Benedito Paulo Jorge Silveira,35,Masculino,Superior - Incompleto,Fanny,Marla Victória,PP,Professor Silberto , MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/27/2020,Vitor Marcos Leonardo Porto,35,Masculino,Superior - Incompleto,Parolim,João Arruda,MDB,Toninho da Farmácia,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/27/2020,Igor Matheus Aragão,35,Masculino,Fundamental - Incompleto,Santa Felicidade,Goura,PDT,Toninho da Farmácia,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Murilo Ruan Alves,35,Masculino,Superior - Completo,Santa Felicidade,Rafael Greca,DEM,NULL,NULL,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Ian Gael Jesus,35,Masculino,Médio - Completo,Bairro Alto,Ney Leprevost,PSD,Katia Dittrich ,SOLIEDARIEDADE,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Thales Rafael Freitas,35,Masculino,Pós-graduação - Doutorado Incompleto,Xaxim,Rafael Greca,DEM,Dona Lourdes - PSB,PSDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Mário Ryan Elias da Rocha,35,Masculino,Superior - Incompleto,Santa Felicidade,João Guilherme,NOVO,Dona Lourdes - PSB,PSDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Luiz Juan Martin Silva,35,Masculino,Superior - Incompleto,Hauer,Rafael Greca,DEM,Maria Do bairro,PDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Antonio Alexandre Hugo Moura,35,Masculino,Superior - Completo,Santa felicidade,Rafael Greca,DEM,Zezinho Sabará ,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Ruan Oliver de Paula,35,Masculino,Superior - Incompleto,Santa felicidade,João Guilherme,NOVO,Professor Silberto , MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/30/2020,Carlos Eduardo Alexandre Davi Souza,35,Masculino,Superior - Incompleto,Eva Dias,Rafael Greca,DEM,Professor Silberto , MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Diogo Danilo Ruan Fogaça,35,Masculino,Superior - Completo,Cidade Industrial,Rafael Greca,DEM,Isadora Bocchetti,MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Francisco Matheus Ramos,35,Masculino,Superior - Completo,santa felicidade,Prefeito,NULL,Zezinho Sabará ,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Alexandre Paulo Caleb da Cruz,35,Masculino,Superior - Completo,Cristo Rei,Ney Leprevost,PSD,Professor Silberto , MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/18/2020,Murilo Pedro Henrique Marcelo Galvão,35,Masculino,Médio - Incompleto,Campo Comprido,Gustavo Fruet,PDT,Toninho da Farmácia,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/18/2020,Rodrigo Samuel da Costa,35,Masculino,Superior - Incompleto,Pinhaville,Rafael Greca ,DEM,Toninho da Farmácia,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/27/2020,Miguel Enrico da Mota,35,Masculino,Superior - Incompleto,Santo Inácio ,Luciano Ducci,PDB,NULL,NULL,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/27/2020,Samuel Lorenzo Manoel de Paula,25,Masculino,Fundamental - Incompleto,Cajuru,Gleise Hoffmann,PT,Katia Dittrich ,SOLIEDARIEDADE,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Luan Sebastião Raimundo Aragão,25,Masculino,Superior - Completo,Boqueirão,Delegado Francischini,PSL,Dona Lourdes - PSB,PSDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Emanuel Diogo Barbosa,25,Masculino,Médio - Completo,Cidade Industrial,Rafael Greca,DEM,Dona Lourdes - PSB,PSDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Edson Erick Theo da Costa,25,Masculino,Pós-graduação - Doutorado Incompleto,Centro ,Luizão Goulart,Republicanos,Maria Do bairro,PDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Pedro Henrique Fernando Dias,25,Masculino,Superior - Incompleto,Bairro alto,Zé Boni,PTC,Cristiano Santos - PV,PV,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Benjamin Heitor Nogueira,25,Masculino,Superior - Incompleto,São Braz ,Marla Victória,PP,Dona Lourdes - PSB,PSDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Paulo Geraldo Murilo Cavalcanti,25,Masculino,Superior - Completo,Fanny,João Arruda,MDB,Maria Do bairro,PDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/28/2020,Filipe Davi da Cruz,25,Masculino,Superior - Incompleto,Parolim,Goura,PDT,Zezinho Sabará ,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+4/30/2020,Marcelo Joaquim Sérgio Barros,25,Masculino,Superior - Incompleto,Santa Felicidade,Rafael Greca,DEM,Professor Silberto , MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Marcos Vinicius Manuel Márcio Porto,25,Masculino,Superior - Completo,Santa Felicidade,Ney Leprevost,PSD,Professor Silberto , MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Iago Theo Felipe Souza,25,Masculino,Superior - Completo,Bairro Alto,Rafael Greca,DEM,Isadora Bocchetti,MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/8/2020,Bruno Santos,25,Masculino,Superior - Completo,Xaxim,João Guilherme,NOVO,Zezinho Sabará ,DEM,2020,Não Informado,Não Informado,NÃO INFORMADO
+5/18/2020,Hiago Goes,25,Masculino,Médio - Incompleto,Santa Felicidade,Rafael Greca,DEM,Professor Silberto , MDB,2020,Não Informado,Não Informado,NÃO INFORMADO
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
