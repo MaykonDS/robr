@@ -45,7 +45,7 @@ function importPerfilEleitor($file, $anoString, $conn){
                 } else {
                     $id_zona = $map[$dados[0]];
                 }
-
+               
                 $id_escolaridade = verifyEscolaridade($dados[3], $conn);
 
                 if ($secureN < floor(($row/$linhas)*100)){
@@ -54,7 +54,7 @@ function importPerfilEleitor($file, $anoString, $conn){
                     if ($secureN == $nextNumberSend && $split && $secureN != 100){
                         $nextNumberSend +=5;
                         $querry = substr($querry, 0, strlen($querry)-1);
-                        //var_dump(utf8_encode($querry));
+                       // var_dump(utf8_encode($querry));
 	                    mysqli_query($conn, $querry);
                         echo 'Dados importados!';
                         $querry = "INSERT INTO perfil_eleitorado (id_zona,num_secao,desc_faixa_etaria,id_escolaridade,sexo,qtd,id_ano) VALUES ";
@@ -67,7 +67,7 @@ function importPerfilEleitor($file, $anoString, $conn){
             }
         }
         $querry = substr($querry, 0, strlen($querry)-1);
-        //var_dump(utf8_encode($querry));
+       // var_dump(utf8_encode($querry));
 	    mysqli_query($conn, $querry);
         echo 'Dados importados!';
         fclose($handle);
