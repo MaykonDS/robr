@@ -1,9 +1,9 @@
 <?php
 // Banco
-//id_zona 	num_secao 	desc_cargo 	num_votavel 	qtd_votos 	id_ano 
+//id_zona 	num_secao 	desc_cargo 	num_votavel 	qtd_votos 	id_ano  turno
 
 //Planilha
-//NUM_ZONA(0);NUM_SECAO(1);DESCRICAO_CARGO(2);NUM_VOTAVEL(3);QTDE_VOTOS(4)
+//TURNO(0);NUM_ZONA(1);NUM_SECAO(2);DESCRICAO_CARGO(3);NUM_VOTAVEL(4);QTDE_VOTOS(5)
 
 function importVotoSecao($file, $anoString, $conn){
     $map = array();
@@ -35,14 +35,14 @@ function importVotoSecao($file, $anoString, $conn){
             }
 
             if ($isFirstTime) {
-                $querry = "INSERT INTO votacao_zona_secao (id_zona,num_secao,desc_cargo,num_votavel,qtd_votos,id_ano) VALUES ";
+                $querry = "INSERT INTO votacao_zona_secao (id_zona,num_secao,desc_cargo,num_votavel,qtd_votos,id_ano, turno) VALUES ";
 			    $id_ano = verifyAno($anoString, $conn);	
             } else {
-                if (@$map[$dados[0]] == null) {
-                    $id_zona = verifyZona($dados[0], $conn);
-                    $map[$dados[0]] = $id_zona;
+                if (@$map[$dados[1]] == null) {
+                    $id_zona = verifyZona($dados[1], $conn);
+                    $map[$dados[1]] = $id_zona;
                 } else {
-                    $id_zona = $map[$dados[0]];
+                    $id_zona = $map[$dados[1]];
                 }
 
                 if ($secureN < floor(($row/$linhas)*100)){
@@ -54,13 +54,13 @@ function importVotoSecao($file, $anoString, $conn){
                         //var_dump(utf8_encode($querry));
 	                    mysqli_query($conn, $querry);
                         echo 'Dados importados!';
-                        $querry = "INSERT INTO votacao_zona_secao (id_zona,num_secao,desc_cargo,num_votavel,qtd_votos,id_ano) VALUES ";
+                        $querry = "INSERT INTO votacao_zona_secao (id_zona,num_secao,desc_cargo,num_votavel,qtd_votos,id_ano, turno) VALUES ";
                     }
                 } else {
                     echo ".";
                 }
                 
-                $querry = $querry."('$id_zona','$dados[1]','$dados[2]','$dados[3]','$dados[4]','$id_ano'),";
+                $querry = $querry."('$id_zona','$dados[2]','$dados[3]','$dados[4]','$dados[5]','$id_ano', '$dados[0]'),";
             }
         }
         $querry = substr($querry, 0, strlen($querry)-1);
