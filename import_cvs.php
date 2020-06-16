@@ -57,7 +57,7 @@ include 'database.php';
            // Função para importar dados do candidato
 		   importCand($tmpCand, $ano_value, $conn);
 		}
-		if ($tmpPerfil != null) {
+		if ($tmpPerfil != null ) {
 			// Função para importar dados do perfil eleitorado
 			importPerfilEleitor($tmpPerfil, $ano_value, $conn);
 		}
